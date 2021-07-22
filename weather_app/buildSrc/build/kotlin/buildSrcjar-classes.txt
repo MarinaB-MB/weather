@@ -1,0 +1,1 @@
+/Users/user/AndroidStudioProjects/weather/weather_app/buildSrc/build/classes/kotlin/main/Config.class:/Users/user/AndroidStudioProjects/weather/weather_app/buildSrc/build/classes/kotlin/main/Dependencies.class:/Users/user/AndroidStudioProjects/weather/weather_app/buildSrc/build/classes/kotlin/main/Version.class

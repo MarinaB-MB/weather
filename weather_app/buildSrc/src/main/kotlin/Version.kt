@@ -1,0 +1,21 @@
+object Version {
+    val kotlin_version = "1.5.21"
+    val moxyVersion = "2.2.2"
+    val hiltVersion = "2.28-alpha"
+    val moshiVersion = "1.12.0"
+    val retrofitVersion = "2.6.4"
+    val okhttpVersion = "3.12.11"
+    val moshiConverterVersion = "2.4.0"
+    val glideVersion = "4.12.0"
+    val viewBindingVersion = "1.4.7"
+
+    val kotlinStdlibVersion = "1.6.0"
+    val appCompatVersion = "1.3.0"
+    val materialVersion = "1.4.0"
+    val constraintlayoutVersion = "2.0.4"
+    val junitExtVersion = "1.1.3"
+    val espressoVersion = "3.4.0"
+    val rxpermissionsVersion = "0.12"
+    val navVersion = "2.3.5"
+    val fragmentKtxVersion = "1.2.5"
+}
