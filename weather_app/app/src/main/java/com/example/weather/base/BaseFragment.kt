@@ -5,7 +5,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import moxy.MvpAppCompatFragment
-import moxy.MvpFragment
 
 abstract class BaseFragment : MvpAppCompatFragment(), BaseProgressView {
 
@@ -22,6 +21,4 @@ abstract class BaseFragment : MvpAppCompatFragment(), BaseProgressView {
     override fun startProgress() {}
     override fun stopProgress() {}
     override fun showError(error: String) {}
-
-
 }
