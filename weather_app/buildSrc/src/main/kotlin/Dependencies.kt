@@ -1,4 +1,13 @@
 object Dependencies {
+
+    //gradle-plugin
+
+
+    val kotlinGradlePlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Version.kotlinVersion}"
+    val gradlePlugin = "com.android.tools.build:gradle:${Version.gradlePluginVersion}"
+    val hiltGradlePlugin = "com.google.dagger:hilt-android-gradle-plugin:${Version.hiltVersion}"
+
+
     //Hilt
     val hilt = "com.google.dagger:hilt-android:${Version.hiltVersion}"
     val hiltCompiler = "com.google.dagger:hilt-android-compiler:${Version.hiltVersion}"
@@ -30,7 +39,7 @@ object Dependencies {
 
 
     // some default
-    val kotlinStdlib = "org.jetbrains.kotlin:kotlin-stdlib:${Version.kotlin_version}"
+    val kotlinStdlib = "org.jetbrains.kotlin:kotlin-stdlib:${Version.kotlinVersion}"
     val androixCore = "androidx.core:core-ktx:${Version.kotlinStdlibVersion}"
     val appCompat = "androidx.appcompat:appcompat:${Version.appCompatVersion}"
     val material = "com.google.android.material:material:${Version.materialVersion}"
